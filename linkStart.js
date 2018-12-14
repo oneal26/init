@@ -1,12 +1,11 @@
-let riddle = document.querySelector("#tomRiddle");
-let span = document.querySelector(".p")
+let button = document.querySelector("#thisButton");
 
 
-
-span.addEventListener("submit", function(){
-    if(span.contains("the internet")){
-        document.write("sup biiiiiiitch");
-    }else{
-        document.write("wow")
-    }
+button.addEventListener("click", function(){
+    let ans = document.querySelector("#grabThis").value;
+    document.write(ans);
 })
+
+
+
+
