@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=VT323&subset=latin-ext');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 2.7rem;
+  background-color: #000500;
+  color: lime;
+  font-family: 'VT323', monospace;
+  text-align: center;
+}
+p {
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 2px GreenYellow;
+  line-height: 1.7rem;
+}
+.p:after {
+  content: "";
+  display: inline-block;
+  width: 0.7rem;
+  height: 1.1rem;
+  background-color: lime;
+  box-shadow: 0px 0px 1px GreenYellow;
+  animation-name: dot;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+}
+@keyframes dot {
+  from {
+    background-color: lime;
+    box-shadow: 0px 0px 2px GreenYellow;
+  }
+  to {
+    background-color: #000500;
+    box-shadow: 0px 0px 2px #000500;
+  }
+}
+
+
+
+
+input{
+    background-color: #000500;
+    color:lime;
+    border: #000500 solid .1em;
+    outline:none;
+    text-shadow: 0px 0px 2px GreenYellow;
+    font-family: 'VT323', monospace;
+    font-size: 3em;
+}
+
+button{
+    background-color:#000500;
+    outline:none;
+    border:lime solid .03em;
+    color:lime;
+    font-family: 'VT323', monospace;
+    font-size: 3em;
+    padding:.1em;
+}
+
+
