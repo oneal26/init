@@ -38,7 +38,15 @@ p {
   }
 }
 
-
+.body{
+    padding: 2.7rem;
+    background-color: #000500;
+    color: lime;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    height:100%;
+    width:100%;
+}
 
 
 input{
