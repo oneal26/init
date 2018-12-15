@@ -26,3 +26,28 @@ li{
     margin-left:auto;
     margin-right:auto;
 }
+
+#notifs{
+    float:left;
+    background-color: #001800;
+    height:35em;
+    width:25%;
+    border: lime solid 1px;
+    border-radius: 5px;
+    margin-left:2em;
+    margin-top:2em;
+}
+
+#event{
+    background-color:#728e72;
+    border-radius: 5px;
+    width:100%;
+    height:5em;
+    margin:auto;
+    float:left;
+    margin-top: 1px;
+}
+
+p{
+    color:#000500;
+}
