@@ -1,0 +1,28 @@
+body {
+    padding: 2.7rem;
+    background-color: #000500;
+    color: lime;
+    font-family: 'VT323', monospace;
+    text-align: center;
+  }
+
+  ul, li{
+    list-style-type: none;
+    display: inline;
+}
+
+li{
+    padding-left:.5em;
+    padding-right:.5em;
+}
+
+#screen{
+    align-content: center;
+    background-color: #001800;
+    height:40em;
+    width:80%;
+    border: lime solid 1px;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+}

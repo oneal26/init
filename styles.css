@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=VT323&subset=latin-ext');
 
 :disabled{
-    color:grey;
-    border:grey solid .03em;
+    color:#333;
+    border:#333 solid .03em;
 }
 
 :disabled:hover{
-    color:lime;
+    color:#333;
     border:grey solid .03em;
 }
 
@@ -42,6 +42,9 @@ body {
   font-family: 'VT323', monospace;
   text-align: center;
 }
+
+
+
 p {
   font-size: 1.5rem;
   text-shadow: 0px 0px 2px GreenYellow;

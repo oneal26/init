@@ -14,6 +14,9 @@ class tronChild{
 
 }
 
+
+
+
 subButton.addEventListener("click", function(e){
     let ansInput = document.querySelector('#grabThis');
     //let ans = document.querySelector("#grabThis").value;
@@ -39,8 +42,16 @@ subButton.addEventListener("click", function(e){
         //console.log(enterButton.removeAttribute("disabled"));
         ansInput.value = 'd̴͔̩̂̇o̷̝͐̑n̸̦̗̈t̴̥͒ ̴̛̦̏g̴̳̥͚̈ȏ̴̦͓̝͒ ̴̭͕͙̾̐͋î̸͙͈ń̸̟̭̣'
         enterButton.disabled = false;
+        enterButton.addEventListener("click", function(e){
+            e.preventDefault();
+            window.location.href = "index2.html";
+               
+        })
         // window.location.href = "index2.html";
     } else {
         ansInput.value = 'INCORRECT!'
     }
 })
+
+
+
