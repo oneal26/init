@@ -1,17 +1,39 @@
-let button = document.querySelector("#thisButton");
+let subButton = document.querySelector("#thisButton");
+let enterButton = document.getElementById("enter");
 
+class tronChild{
+    constructor(health, stamina, skill){
 
-
-button.addEventListener("click", function(){
-    let ans = document.querySelector("#grabThis").value;
-    
-    if(ans.includes("the internet")){
-        document.write("deskTop");
-    }else if(ans.includes("theinternet")){
-        document.write("deskTop");
-    }else{
-        document.write("invalid.");
     }
+}
 
+subButton.addEventListener("click", function(e){
+    let ansInput = document.querySelector('#grabThis');
+    //let ans = document.querySelector("#grabThis").value;
+    let ans = ansInput.value;
+    let unlockButton = false;
+
+    //document.querySelector('#grabThis').value = '';
+    console.log(e);
+    e.preventDefault();
+
+    if(ans.includes("the internet")){
+        unlockButton = true;
+        console.log(unlockButton);
+    }else if(ans.includes("theinternet")){
+        unlockButton = true;
+        console.log(unlockButton);
+    }else{
+        unlockButton = false;
+        console.log(unlockButton);
+    }
     
+    if(unlockButton === true){
+        //console.log(enterButton.removeAttribute("disabled"));
+        ansInput.value = 'd̴͔̩̂̇o̷̝͐̑n̸̦̗̈t̴̥͒ ̴̛̦̏g̴̳̥͚̈ȏ̴̦͓̝͒ ̴̭͕͙̾̐͋î̸͙͈ń̸̟̭̣'
+        enterButton.disabled = false;
+        // window.location.href = "index2.html";
+    } else {
+        ansInput.value = 'INCORRECT!'
+    }
 })

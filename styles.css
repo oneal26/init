@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=VT323&subset=latin-ext');
 
+:disabled{
+    color:grey;
+    border:grey solid .03em;
+}
 
+:disabled:hover{
+    color:lime;
+    border:grey solid .03em;
+}
+
+button:hover{
+    background-color:#000500;
+    outline:none;
+    border:grey solid .03em;
+    color:lime;
+    font-family: 'VT323', monospace;
+    font-size: 3em;
+    padding:.1em;
+}
 
 
 * {
@@ -65,8 +83,8 @@ input{
 button{
     background-color:#000500;
     outline:none;
-    border:lime solid .03em;
-    color:lime;
+    border:grey solid .03em;
+    color:grey;
     font-family: 'VT323', monospace;
     font-size: 3em;
     padding:.1em;
@@ -75,6 +93,17 @@ button{
 #answer{
     font-family: 'VT323', monospace;
 }
+
+
+
+#notifications{
+    float:left;
+    height:50em;
+    width:30%;
+    background-color:#002800;
+    border:2px solid lime;
+}
+
 
 
 
