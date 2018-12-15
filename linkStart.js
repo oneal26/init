@@ -3,8 +3,15 @@ let enterButton = document.getElementById("enter");
 
 class tronChild{
     constructor(health, stamina, skill){
-
+        this.health = health;
+        this.stamina = stamina;
+        this.skill = skill;
     }
+
+    heal(){
+        
+    }
+
 }
 
 subButton.addEventListener("click", function(e){

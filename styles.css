@@ -20,6 +20,16 @@ button:hover{
     padding:.1em;
 }
 
+button:active{
+    background-color:#000500;
+    outline:none;
+    border: solid .03em;
+    color:rgb(28, 28, 28);
+    font-family: 'VT323', monospace;
+    font-size: 3em;
+    padding:.1em;
+}
+
 
 * {
   margin: 0;
@@ -103,6 +113,23 @@ button{
     background-color:#002800;
     border:2px solid lime;
 }
+
+
+
+
+.blinkMe {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+
+
 
 
 
