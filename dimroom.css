@@ -36,6 +36,7 @@ li{
     border-radius: 5px;
     margin-left:2em;
     margin-top:2em;
+    padding:5px;
 }
 
 #event{
@@ -45,9 +46,58 @@ li{
     height:5em;
     margin:auto;
     float:left;
-    margin-top: 1px;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 #000500, 0 6px 20px 0 #000500;
 }
 
 p{
     color:#000500;
 }
+
+button{
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    color:lime;
+    background-color: #000500;
+    outline:none;
+    border:none;
+}
+
+button:active{
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    color:#003200;
+}
+
+.iconBox{
+    float: left;
+    margin-bottom:0px;
+}
+
+#jadenSmith{
+    margin-top: 5em;
+    margin-left: 5em;
+    height:4em;
+    width:4em;
+}
+
+#jadenSmith:hover{
+    height:4em;
+    width:4em;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+
+.iconTxt{
+    color:lime;
+    margin-left: 4.3em;
+}
+
+
+
+
+
+
+
+
+
+
