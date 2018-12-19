@@ -53,7 +53,7 @@ li{
     align-content: center;
     background-color: #001800;
     height:40em;
-    width:80em;
+    width:70em;
     border: lime solid 1px;
     border-radius: 5px;
     margin-left:auto;
@@ -112,11 +112,13 @@ button:active{
     margin-left: 5em;
     height:4em;
     width:4em;
+    border-radius:50%;
 }
 
 #jadenSmith:hover{
     height:4em;
     width:4em;
+    border-radius:50%;
     box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
 }
 

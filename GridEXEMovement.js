@@ -1,22 +1,36 @@
+var width = 80;
+var height = 40;
+
 function leftArrowPressed() {
   var element = document.getElementById("image1");
-  element.style.left = parseInt(element.style.left) - 25 + 'px';
+  if(element.style.left >= "11px"){
+    element.style.left = parseInt(element.style.left) - 17+'px';
+  }else{
+    element.style.left = parseInt(element.style.left) - '0px';
+  }
+  
   }
 
   function rightArrowPressed() {
   var element = document.getElementById("image1");
-  element.style.left = parseInt(element.style.left) + 25 + 'px';
+ 
+  if(element.style.left <= "-800px"){
+    element.style.left = parseInt(element.style.left) + 1+'px';
+  }else{
+    element.style.left = parseInt(element.style.left) + '0px';
+  }
 
   }
 
   function upArrowPressed() {
   var element = document.getElementById("image1");
-  element.style.top = parseInt(element.style.top) - 25 + 'px';
+  element.style.top = parseInt(element.style.top) - 17 + 'px';
   }
 
   function downArrowPressed() {
+
   var element = document.getElementById("image1");
-  element.style.top = parseInt(element.style.top) + 25 + 'px';
+  element.style.top = parseInt(element.style.top) + 17 + 'px';
   }
 
   function moveSelection(evt) {
