@@ -44,7 +44,7 @@ subButton.addEventListener("click", function(e){
         enterButton.disabled = false;
         enterButton.addEventListener("click", function(e){
             e.preventDefault(); //preventDefault() is the LIFE SAVER. it keeps the page from refreshing on submit. KEEPING YOUR DATA and allowing you to use it!
-            window.location.href = "index2.html";
+            window.location.href = "deskTop.html";
                
         })
         // window.location.href = "index2.html";
