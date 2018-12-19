@@ -4,6 +4,10 @@ body {
     color: lime;
     font-family: 'VT323', monospace;
     text-align: center;
+    min-width: 80em; 
+    min-height: 40em;
+    margin: 0 auto;
+    position:absolute;
   }
 
   ul, li{
@@ -20,7 +24,7 @@ li{
     align-content: center;
     background-color: #001800;
     height:40em;
-    width:80%;
+    width:80em;
     border: lime solid 1px;
     border-radius: 5px;
     margin-left:auto;
@@ -51,7 +55,7 @@ li{
 }
 
 p{
-    color:#000500;
+    color:white;
 }
 
 button{
@@ -93,9 +97,20 @@ button:active{
 }
 
 
+#mats{
+    height:3em;
+    width:15em;
+    float:left;
+    background-color:#001800;
+    border:lime solid 1px;
+    margin-top: 2em;
+    margin-left:2em;
+    border-radius:5px;
+}
 
-
-
+.whiteFont{
+    font:white !important;
+}
 
 
 
